@@ -4,7 +4,7 @@ import 'package:DevQuiz/core/core.dart';
 import 'package:DevQuiz/home/widgets/chart/chart_widget.dart';
 
 class ScoreCardWidget extends StatelessWidget {
-  final int score;
+  final double score;
   const ScoreCardWidget({
     Key? key,
     required this.score,
